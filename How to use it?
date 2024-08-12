@@ -1,2 +1,12 @@
+!! Download IP Webcam in your mobile !!
 At first download the xml file with this link - https://github.com/rashmi-ranjan07/Face-Detection-System/blob/main/haarcascade_frontalface_default.xml
-After that open the collect_data file -
+After that open the collect_data file -  https://github.com/rashmi-ranjan07/Face-Detection-System/blob/main/collect_data.py
+
+Here the code is already present you just need to change the classifier path(xml file) as well as url ip address 
+(Note: The ip address can be fetched through the IP Webcam Mobile App)
+Now collect the images (100 of images will be collected if it doesn't match to 100 images then it will show "need more data".
+After collecting 100 of images it will automatically be saved and name the file name according to your need.
+
+Then open the consolidated_data file where you can dumop the files into images.p and labels.p.
+The consolidated_data file is in this link-
+
