@@ -2,9 +2,9 @@ import cv2
 import urllib
 import numpy as np
 
-classifier = cv2.CascadeClassifier(r"C:\Users\hp\OneDrive\Desktop\Face_detection\Face_detection\haarcascade_frontalface_default.xml")
+classifier = cv2.CascadeClassifier(r"Face_detection\haarcascade_frontalface_default.xml") #give the correct path
 
-url = "http://192.168.210.149:8080/shot.jpg"
+url = "http://192.168.210.149:8080/shot.jpg" #give the correct url or ip address
 
 
 data = []
