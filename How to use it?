@@ -1,5 +1,13 @@
 !! Download IP Webcam in your mobile !!
+Create a folder named as face detection
+You can run this project using spyproject where you can directly create a new project with name face detection.
+There you just need to create 2 files -
+-Clean data (After consolidating the data or images it would dump into this folder)
+-images (for collecting the raw images)
+
 At first download the xml file with this link - https://github.com/rashmi-ranjan07/Face-Detection-System/blob/main/haarcascade_frontalface_default.xml
+The xml file must be present in face detection project
+
 After that open the collect_data file -  https://github.com/rashmi-ranjan07/Face-Detection-System/blob/main/collect_data.py
 
 Here the code is already present you just need to change the classifier path(xml file) as well as url ip address 
@@ -8,5 +16,11 @@ Now collect the images (100 of images will be collected if it doesn't match to 1
 After collecting 100 of images it will automatically be saved and name the file name according to your need.
 
 Then open the consolidated_data file where you can dumop the files into images.p and labels.p.
-The consolidated_data file is in this link-
+The consolidated_data file is in this link- https://github.com/rashmi-ranjan07/Face-Detection-System/blob/main/consolidated_data.py
+After running it it would create two files with .p extensions which would be present in Clean data
+
+Then training the model where you can just train in google colab or you can use jupyter notebook
+
+
+
 
