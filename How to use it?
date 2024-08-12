@@ -25,7 +25,11 @@ The training model can be found in this link - https://github.com/rashmi-ranjan0
 Here you just need to change the path where your images.p and labels.p is present then after training the model the model is dumped into 'final_modelh5'
 Then implement this model in recognize.py
 
-The recognize.py file can be found in this link - 
+The recognize.py file can be found in this link - https://github.com/rashmi-ranjan07/Face-Detection-System/blob/main/recognize.py
+
+In this file you just need to change the classifier path (xml file), model path(where your model is present (final_model.h5)) and url path(from the IP Webcam).
+
+Just change the labels name
 
 
 
