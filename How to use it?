@@ -29,7 +29,12 @@ The recognize.py file can be found in this link - https://github.com/rashmi-ranj
 
 In this file you just need to change the classifier path (xml file), model path(where your model is present (final_model.h5)) and url path(from the IP Webcam).
 
-Just change the labels name
+Just name the labels as per your requirements
+(Note : This labels are the names, where  you have saved your images files i.e, if you have collected multiple images of different persons then you have saved with different names.Thus, you need to give those names in labels.)
+
+And then you can check the outtput in your laptop screen where the input (i.e, the face can be from the app IP Webcam which is in your mobile) is given and output can be achieved in your screen (i.e, the face name).
+
+
 
 
 
