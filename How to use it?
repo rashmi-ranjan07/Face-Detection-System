@@ -1,6 +1,8 @@
 !! Download IP Webcam in your mobile !!
 Create a folder named as face detection
-You can run this project using spyproject where you can directly create a new project with name face detection.
+or
+You can use spyproject where you can directly create a new project with name face detection. 
+
 There you just need to create 2 files -
 -Clean data (After consolidating the data or images it would dump into this folder)
 -images (for collecting the raw images)
