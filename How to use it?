@@ -20,6 +20,12 @@ The consolidated_data file is in this link- https://github.com/rashmi-ranjan07/F
 After running it it would create two files with .p extensions which would be present in Clean data
 
 Then training the model where you can just train in google colab or you can use jupyter notebook
+The training model can be found in this link - https://github.com/rashmi-ranjan07/Face-Detection-System/blob/main/Training%20the%20model/face_detection.ipynb
+
+Here you just need to change the path where your images.p and labels.p is present then after training the model the model is dumped into 'final_modelh5'
+Then implement this model in recognize.py
+
+The recognize.py file can be found in this link - 
 
 
 
