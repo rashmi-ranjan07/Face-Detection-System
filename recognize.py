@@ -4,14 +4,14 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
-classifier = cv2.CascadeClassifier(r"C:\Users\hp\OneDrive\Desktop\Face_detection\Face_detection\haarcascade_frontalface_default.xml")
+classifier = cv2.CascadeClassifier(r"Face_detection\haarcascade_frontalface_default.xml") #give the correct path
 
-model = load_model(r"C:\Users\hp\OneDrive\Desktop\Face_detection\Face_detection\final_model.h5")
+model = load_model(r"Face_detection\Face_detection\final_model.h5") #give the correct path
 
-URL = 'http://192.168.210.149:8080/shot.jpg'
+URL = 'http://192.168.210.149:8080/shot.jpg' #give the correct url or ip address
 
 def get_pred_label(pred):
-    labels = ["Itachi","Jaga","Kratos","Prakash","bibek","bibek1","sas1"]
+    labels = ["Itachi","Jaga","Kratos","Prakash","bibek","bibek1","sas1"] #names of images i.e, 7 persons with different names
     return labels[pred]
 
 def preprocess(img):
